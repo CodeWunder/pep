@@ -1014,6 +1014,9 @@ a:focus {
   padding: 25px 0;
   margin: 0;
 }
+#more {
+  display: none;
+}
 
 .footer_section p a {
   color: inherit;
