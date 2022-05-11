@@ -151,11 +151,11 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 5){ // if user scored more than 5
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>and congrats! 🎉, You are a rightist </span>';
+        let scoreTag = '<span>and congrats! 🎉, <b>YOU ARE A RIGHTIST</b> </span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if(userScore < 6){ // if user scored less than 6
-        let scoreTag = '<span>and You are a leftist</span>';
+        let scoreTag = '<span>and <b>YOU ARE A LEFTIST</b></span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1
