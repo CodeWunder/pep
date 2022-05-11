@@ -45,6 +45,51 @@ let questions = [
       "No"
     ]
   },
+    {
+    numb: 6,
+    question: "Should we have a strong military?",
+    answer: "Yes",
+    options: [
+      "Yes",
+      "No"
+    ]
+  },
+    {
+    numb: 7,
+    question: "That taxes are too high, should we cut some services?",
+    answer: "Yes",
+    options: [
+      "Yes",
+      "No"
+    ]
+  },
+    {
+    numb: 8,
+    question: "Should socialized medicine be privatized?",
+    answer: "Yes",
+    options: [
+      "Yes",
+      "No"
+    ]
+  },
+    {
+    numb: 9,
+    question: "Should the Government interfere or control industry?",
+    answer: "No",
+    options: [
+      "Yes",
+      "No"
+    ]
+  },
+    {
+    numb: 10,
+    question: "Is the environment as important as the economic growth?",
+    answer: "No",
+    options: [
+      "Yes",
+      "No"
+    ]
+  },
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 
