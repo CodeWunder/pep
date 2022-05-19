@@ -1021,4 +1021,7 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+.hero_bg_box {
+  width: 300px;
+}
 /*# sourceMappingURL=style.css.map */
